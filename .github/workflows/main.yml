@@ -12,7 +12,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Upload code coverage
-      - uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v2
         with:
           token: 310091bd-0012-414a-8512-3a3b00ca3146 # not required for public repos
           files: ./coverage1.xml
