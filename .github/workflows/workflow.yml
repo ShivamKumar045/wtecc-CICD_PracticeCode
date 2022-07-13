@@ -1,9 +1,0 @@
-steps:
-  - name: Upload code coverage
-  - uses: codecov/codecov-action@v2
-    with: null
-    files: ./coverage1.xml
-    flags: unittests
-    fail_ci_if_error: true
-    verbose: true
-    version: v0.1.13
