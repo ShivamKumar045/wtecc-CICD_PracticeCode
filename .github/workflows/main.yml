@@ -20,6 +20,7 @@ jobs:
           fail_ci_if_error: false # optional (default = false)
           verbose: true # optional (default = false)
           version: "v0.1.13"
+          path_to_write_report: ./coverage/codecov_report.txt
 
         
          
