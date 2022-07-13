@@ -16,7 +16,7 @@ jobs:
         with:
           files: ./coverage1.xml
           flags: unittests
-          fail_ci_if_error: true # optional (default = false)
+          fail_ci_if_error: false # optional (default = false)
           verbose: true # optional (default = false)
           version: "v0.1.13"
 
